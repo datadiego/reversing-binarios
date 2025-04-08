@@ -12,12 +12,17 @@ Analiza la funcion `main`, ¿que puedes obtener a partir de la misma?
 
 ## Ejercicio 2
 
-Analiza los ejecutables `mindreader` y `mindreader2`. ¿Eres capaz de saber cual está compilada desde C, y cual desde python? ¿Por qué?
+Analiza el ejecutable `serial-check` y obtén acceso a la aplicación. 
 
 ## Ejercicio 3
 
-Ambos ejecutables tienen una flag, intenta hacer que el programa te de la flag (no sirve encontrarlas mediante `strings`) y apunta ambas.
+Modifica el ejecutable de `serial-check` para que acepte el serial `pass1234`.
 
 ## Ejercicio 4
 
-Analiza el ejecutable `serial-check` y obtén acceso a la flag.
+Analiza los ejecutables `mindreader` y `mindreader2`. ¿Eres capaz de saber cual está compilada desde C, y cual desde python? ¿Por qué?
+
+## Ejercicio 5
+
+Ambos ejecutables tienen una flag, intenta hacer que el programa te de la flag. **NO** sirve encontrar la flag como un string, debes provocar que el ejecutable lo devuelva en tiempo de ejecución.
+
